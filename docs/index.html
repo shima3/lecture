@@ -27,22 +27,27 @@
   </head>
   <body>
     <h1>ソフトウェア品質評価特論</h1>
-    <div id="upper">
-      <div id="wrapper2" style="height:100%;">
+      <div id="wrapper" style="width:100%; height:100%;">
         <canvas id="canvas" class="checker"></canvas>
       </div>
-    </div>
   </body>
 </html>
 <script type="text/javascript">
-  var upper=document.getElementById("upper");
+  var wrapper=document.getElementById("wrapper");
   let canvas=document.getElementById("canvas");
 
   function fitCanvas(){
+      canvas.width=window.innerWidth;
+      canvas.height=window.innerHeight-upper.clientHeight;
+    /*
+      canvas.width=window.innerWidth;
+      canvas.height=window.innerHeight-upper.clientHeight;
       canvas.width=upper.clientWidth;
       canvas.height=body.clientHeight-upper.clientHeight;
+      */
   };
-
+/*
   fitCanvas();
   window.onresize=fitCanvas;
+  */
 </script>
