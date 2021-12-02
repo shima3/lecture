@@ -1,1 +1,1 @@
-# software-quality
+# ソフトウェア品質特論
