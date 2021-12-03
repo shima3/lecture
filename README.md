@@ -1,3 +1,6 @@
+---
+theme: jekyll-theme-time-machine
+---
 # ソフトウェア品質特論
 
 教員：島和之
