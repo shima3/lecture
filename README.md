@@ -1,5 +1,5 @@
 ---
-theme: jekyll-theme-time-machine
+layout: default
 ---
 # ソフトウェア品質特論
 
